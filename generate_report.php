@@ -1,4 +1,5 @@
 <?php
+// conditional statment to display the generate report button
 if ($client->variation('generate-report', $user, false)) {
   // application code to show the feature
   $generate_report_button = "<a href='#' class='btn btn-primary btn-sm active' role='button' aria-pressed='true'>Generate Report</a>";
